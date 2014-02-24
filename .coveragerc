@@ -3,7 +3,7 @@
 branch = True
 
 source=trove
-omit=*trove/tests*,*trove/openstack/common*
+omit=*trove_guestagent/tests*,*trove_guestagent/openstack/common*
 
 [report]
 # Regexes for lines to exclude from consideration

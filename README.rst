@@ -1,7 +1,7 @@
-Trove
+Trove Guestagent
 --------
 
-Trove is Database as a Service for Open Stack.
+Trove Guestagent is a in-VM agent for the Database as a Service of OpenStack.
 
 
 To run all tests and PEP8, run tox, like so:
@@ -16,10 +16,3 @@ $ tox -epep8
 To generate a coverage report,run:
 $ tox -ecover
 (note: on some boxes, the results may not be accurate unless you run it twice)
-
-If you'd like to start up a fake Trove API daemon for integration testing
-with your own tool, run:
-$ ./bin/start_server
-
-Stop the server with:
-$ ./bin/stop_server

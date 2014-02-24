@@ -1,11 +1,10 @@
 vagrant/
 *.pyc
-trove_test.sqlite
 .venv
-run_tests.log
 guest-agent-files.txt
 trove.egg*
-trove/vcsversion.py
+trove_guestagent.egg*
+trove_guestagent/vcsversion.py
 *py*.egg
 .coverage
 cover/
@@ -14,10 +13,10 @@ host-syslog.log
 tags
 .tox
 trovetest.log
-trove/versioninfo
+trove_guestagent/versioninfo
 AUTHORS
 ChangeLog
-trove.iml
+trove_guestagent.iml
 .testrepository
 .pid
 
